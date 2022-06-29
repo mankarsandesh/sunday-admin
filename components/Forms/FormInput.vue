@@ -10,6 +10,7 @@
          :name="name"
          :value="value"
          :autocomplete="autocomplete"
+         @input="updateInput"
          class="
             bg-gray-50
             border border-gray-300
@@ -64,6 +65,11 @@ export default {
       type: {
          type: String,
          default: "text",
+      },
+   },
+   methods: {
+      updateInput(e) {
+         this.$emit("input", e.target.value);
       },
    },
 };

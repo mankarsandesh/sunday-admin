@@ -84,7 +84,11 @@
          </div>
          <div class="flex justify-between pt-4 space-x-2 px-4 text-sm">
             <a href="">Forgot Password</a>
-            <a href="" class="text-blue-700 font-medium">Sign Up</a>
+            <NuxtLink to="/signup"
+               ><a href="" class="text-blue-700 font-medium"
+                  >Sign Up</a
+               ></NuxtLink
+            >
          </div>
       </div>
    </div>
