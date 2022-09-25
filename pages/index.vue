@@ -13,7 +13,8 @@
       <div class="max-w-4xl mx-auto sm:px-6 lg:px-8 w-2/6">
          <div class="bg-white overflow-hidden shadow sm:rounded-lg p-6">
             <h1 class="text-3xl leading-7 font-semibold mb-5 text-center">
-               Sunday <span class="text-blue-500">Admin</span>
+               Sunday
+               <span class="text-blue-500">Admin</span>
             </h1>
             <form>
                <div class="mb-6">
