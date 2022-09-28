@@ -309,19 +309,17 @@
          <div class="flex min-h-0 flex-1 flex-col bg-gray-800">
             <div class="flex h-16 flex-shrink-0 items-center bg-gray-900 px-4">
                <img
-                  class="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                  class="h-10 w-auto"
+                  src="../static/logo.png"
                   alt="Your Company"
                />
-               <h3 class="text-white ml-2">Sunday Plus</h3>
             </div>
             <div class="flex flex-1 flex-col overflow-y-auto">
                <nav class="flex-1 space-y-1 px-2 py-4">
                   <a
                      href="#"
                      class="
-                        bg-gray-900
-                        text-white
+                        text-red-500
                         group
                         flex
                         items-center
@@ -333,7 +331,7 @@
                      "
                   >
                      <svg
-                        class="text-gray-300 mr-3 flex-shrink-0 h-6 w-6"
+                        class="text-red-500 mr-3 flex-shrink-0 h-6 w-6"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"

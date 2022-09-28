@@ -12,22 +12,16 @@
    >
       <div class="max-w-4xl mx-auto sm:px-6 lg:px-8 w-2/6">
          <div class="bg-white overflow-hidden shadow sm:rounded-lg p-6">
-            <h1 class="text-3xl leading-7 font-semibold mb-5 text-center">
-               Sunday <span class="text-blue-500">Admin</span>
-            </h1>
+            <img
+               class="h-14 w-auto mb-10 m-auto"
+               src="/logo.png"
+               alt="Your Company"
+            />
             <div class="mb-6">
                <FormInput
                   label="Full Name"
                   placeholder="Sunday"
                   v-model="form.fullName"
-               />
-            </div>
-            <div class="mb-6">
-               <FormInput
-                  label="Phone"
-                  type="phone"
-                  placeholder="970224253"
-                  v-model="form.phone"
                />
             </div>
             <div class="mb-6">
@@ -39,8 +33,24 @@
             </div>
             <div class="mb-6">
                <FormInput
+                  label="Phone"
+                  type="phone"
+                  placeholder="970224253"
+                  v-model="form.phone"
+               />
+            </div>
+
+            <div class="mb-6">
+               <FormInput
                   type="password"
                   label="Password"
+                  v-model="form.password"
+               />
+            </div>
+            <div class="mb-6">
+               <FormInput
+                  type="password"
+                  label="Confirm Password"
                   v-model="form.password"
                />
             </div>
@@ -48,8 +58,8 @@
                type="submit"
                class="
                   text-white
-                  bg-blue-700
-                  hover:bg-blue-800
+                  bg-red-500
+                  hover:bg-red-600
                   focus:ring-4 focus:outline-none focus:ring-blue-300
                   font-medium
                   rounded-lg
@@ -68,9 +78,11 @@
             </button>
          </div>
          <div class="flex justify-between pt-4 space-x-2 px-4 text-sm">
-            <NuxtLink to="/forgot"><a href="">Forgot Password</a></NuxtLink>
-            <NuxtLink to="/">
-               <a href="" class="text-blue-700 font-medium">Login</a>
+            <NuxtLink to="/auth/forgot"
+               ><a href="">Forgot Password</a></NuxtLink
+            >
+            <NuxtLink to="/auth">
+               <a href="" class="text-red-500 font-medium">Login</a>
             </NuxtLink>
          </div>
       </div>

@@ -31,8 +31,8 @@
             />
          </svg>
       </button>
-      <div class="flex flex-1 justify-between px-4">
-         <div class="flex flex-1">
+      <div class="flex flex-1 justify-between px-4 bg-gray-700">
+         <div class="flex flex-1 bg-gray-700">
             <form class="flex w-full md:ml-0" action="#" method="GET">
                <label for="search-field" class="sr-only">Search</label>
                <div
@@ -40,7 +40,8 @@
                      relative
                      w-full
                      text-gray-400
-                     focus-within:text-gray-600
+                     focus-within:text-white
+                     bg-gray-700
                   "
                >
                   <div
@@ -51,6 +52,7 @@
                         left-0
                         flex
                         items-center
+                        bg-gray-700
                      "
                   >
                      <!-- Heroicon name: mini/magnifying-glass -->
@@ -78,13 +80,13 @@
                         py-2
                         pl-8
                         pr-3
-                        text-gray-900
+                        text-white
                         placeholder-gray-500
                         focus:border-transparent
-                        focus:placeholder-gray-400
+                        focus:placeholder-white
                         focus:outline-none
-                        focus:ring-0
                         sm:text-sm
+                        bg-gray-700
                      "
                      placeholder="Search"
                      type="search"
